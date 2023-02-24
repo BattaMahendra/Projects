@@ -1,0 +1,15 @@
+com\sample\repositories\BaseLocationRepository.class
+com\sample\repositories\EmployeeRepository.class
+com\sample\entitties\BaseLocation.class
+com\sample\entitties\Employee.class
+com\sample\entitties\EmployeeAddress.class
+com\sample\services\BaseLocationService.class
+com\sample\controllers\BaseLocationController.class
+com\sample\repositories\ShipperRepository.class
+com\sample\controllers\ShipperController.class
+com\sample\controllers\EmployeeController.class
+com\sample\services\ShipperService.class
+com\sample\ShipmentApplication.class
+com\sample\repositories\AddressRepository.class
+com\sample\entitties\Shipper.class
+com\sample\services\EmployeeService.class
