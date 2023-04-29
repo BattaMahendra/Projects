@@ -72,6 +72,7 @@ public class BaseLocationController {
 	
 	@GetMapping("/city/{city}")
 	
+	
 	public  BaseLocation getByCity(@PathVariable("city") String city){
 		return locationService.findByCity(city).get(0);
 	}
