@@ -27,9 +27,9 @@ public class BaseLocationController {
 	private BaseLocationService locationService;
 	
 	@GetMapping("/all")
-	public List<BaseLocation> getAll() {
+	public List<BaseLocation> getAll() throws InterruptedException {
 		
-		 
+		 Thread.sleep(120);
 		System.out.println("we are in BL controller");
 		
 		return locationService.getAllBaseLocations();
@@ -71,6 +71,7 @@ public class BaseLocationController {
 	}
 	
 	@GetMapping("/city/{city}")
+	
 	public  BaseLocation getByCity(@PathVariable("city") String city){
 		return locationService.findByCity(city).get(0);
 	}
